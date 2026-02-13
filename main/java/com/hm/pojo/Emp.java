@@ -19,7 +19,7 @@ public class Emp {
     private Short gender;
     private String image;
     private Short job;
-    private LocalDate entryDate;
+    private LocalDate entrydate;
     private Short deptId;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;

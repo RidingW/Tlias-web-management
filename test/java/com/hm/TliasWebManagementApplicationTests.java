@@ -19,18 +19,18 @@ class TliasWebManagementApplicationTests {
     @Autowired
     private DeptMapper deptMapper;
 
-    @Test
-    public void testSelect(){
-        List<Emp> emps = empMapper.selectAll();
-        System.out.println(emps);
-    }
+//    @Test
+//    public void testSelect(){
+//        List<Emp> emps = empMapper.selectAll();
+//        System.out.println(emps);
+//    }
 
-    @Test
-    public void testGetIdByName(){
-        String name = "销售部";
-        Integer id = deptMapper.getIdByName(name);
-        System.out.println(name + "的id :" + id);
-    }
+//    @Test
+//    public void testGetIdByName(){
+//        String name = "销售部";
+//        Integer id = deptMapper.getIdByName(name);
+//        System.out.println(name + "的id :" + id);
+//    }
 
 	@Test
 	void contextLoads() {
